@@ -22,6 +22,10 @@ RUN grafana-cli plugins install snuids-radar-panel
 RUN grafana-cli plugins install blackmirror1-statusbygroup-panel
 RUN grafana-cli plugins install vonage-status-panel
 RUN grafana-cli plugins install zuburqan-parity-report-panel
+RUN grafana-cli plugins install michaeldmoore-annunciator-panel
+RUN grafana-cli plugins install yesoreyeram-boomtable-panel
+RUN grafana-cli plugins install btplc-alarm-box-panel
+RUN grafana-cli plugins install snuids-trafficlights-panel
 
 #DATASOURCES
 RUN grafana-cli plugins install camptocamp-prometheus-alertmanager-datasource
